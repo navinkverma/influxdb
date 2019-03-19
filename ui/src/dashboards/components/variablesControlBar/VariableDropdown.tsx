@@ -40,6 +40,9 @@ class VariableDropdown extends PureComponent<Props> {
       <div className="variable-dropdown">
         {/* TODO: Add variable description to title attribute when it is ready */}
         <div className="variable-dropdown--label">
+          <div className="customizable-field--drag">
+            <span className="hamburger" />
+          </div>
           <span>{name}</span>
         </div>
         <Dropdown

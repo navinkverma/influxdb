@@ -21,10 +21,11 @@
   color: $c-comet;
   white-space: nowrap;
   overflow: hidden;
-  padding: 0 $form-sm-padding;
+  padding: 0 $form-sm-padding 0 0;
   border-radius: $radius 0 0 $radius;
   background-color: $g3-castle;
   background-attachment: fixed;
+  display: flex;
 
   > span {
     @include gradient-h($c-comet, $c-laser);
