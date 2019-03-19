@@ -29,9 +29,6 @@ import {setTimeRange, setIsViewingRawData} from 'src/timeMachine/actions'
 // Utils
 import {getActiveTimeMachine, getActiveQuery} from 'src/timeMachine/selectors'
 
-// Styles
-import 'src/timeMachine/components/Queries.scss'
-
 // Types
 import {AppState, DashboardQuery, QueryEditMode, TimeRange} from 'src/types/v2'
 import {DashboardDraftQuery} from 'src/types/v2/dashboards'
